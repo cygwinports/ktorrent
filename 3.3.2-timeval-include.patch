@@ -1,0 +1,10 @@
+--- origsrc/ktorrent-3.3.2/libbtcore/dht/rpcserver.cpp	2009-12-13 09:48:28.000000000 -0600
++++ src/ktorrent-3.3.2/libbtcore/dht/rpcserver.cpp	2010-01-10 13:23:29.302557300 -0600
+@@ -22,6 +22,7 @@
+ #include <QThread>
+ #include <unistd.h>
+ #include <string.h>
++#include <sys/time.h>
+ #include <net/portlist.h>
+ #include <util/log.h>
+ #include <util/error.h>
