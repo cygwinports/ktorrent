@@ -1,5 +1,5 @@
 category: KDE Net
-requires: libbtcore12 libgcc1 libkdecore5 libkpim4 libphonon4 libQt3Support4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libtag1
+requires: libgcc1 libkdecore5 libkpim4 libktorrent2 libphonon4 libQt3Support4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libtag1
 sdesc: "KDE BitTorrent application"
 ldesc: "KTorrent is a BitTorrent application for KDE which allows you to 
 download files using the BitTorrent protocol. It enables you to run 
