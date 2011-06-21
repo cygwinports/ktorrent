@@ -1,5 +1,5 @@
 category: KDE
-requires: libgcc1 libkdecore5 libktorrent2 libplasma3 libQtCore4 libQtDBus4 libstdc++6
+requires: ktorrent libgcc1 libkdecore5 libktorrent3 libkworkspace4 libplasma3 libQtCore4 libQtDBus4 libQtGui4 libstdc++6
 external-source: ktorrent
 sdesc: "KDE BitTorrent Plasma engine"
 ldesc: "KTorrent is a BitTorrent application for KDE which allows you to 
