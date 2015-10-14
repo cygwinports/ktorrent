@@ -2,7 +2,7 @@ inherit kde4 python
 
 NAME="ktorrent"
 VERSION=4.3.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Net"
 SUMMARY="KDE BitTorrent application"
 DESCRIPTION="KTorrent is a BitTorrent application for KDE which allows you to
