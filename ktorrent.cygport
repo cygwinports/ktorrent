@@ -1,8 +1,8 @@
-inherit kde4 python
+inherit kf5
 
 NAME="ktorrent"
-VERSION=4.3.1
-RELEASE=3
+VERSION=5.1.0
+RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE BitTorrent application"
 DESCRIPTION="KTorrent is a BitTorrent application for KDE which allows you to
@@ -10,11 +10,4 @@ download files using the BitTorrent protocol. It enables you to run multiple
 torrents at the same time and comes with extended features to make it a full-
 featured client for BitTorrent."
 HOMEPAGE="http://ktorrent.pwsp.net/"
-SRC_URI="http://ktorrent.pwsp.net/downloads/${VERSION}/ktorrent-${VERSION}.tar.bz2"
-PATCH_URI="
-	http://pkgs.fedoraproject.org/cgit/ktorrent.git/plain/ktorrent-4.2.0-mimetype_magnet.patch
-	http://pkgs.fedoraproject.org/cgit/ktorrent.git/plain/0015-Backport-ipfilter-extraction-fixes-from-master-branc.patch
-	http://pkgs.fedoraproject.org/cgit/ktorrent.git/plain/0026-Fix-compilation-of-ipblocklisttest-target.patch
-"
-
-REQUIRES="kde-runtime"
+SRC_URI="mirror://kde/stable/ktorrent/${VERSION%\.*}/ktorrent-${VERSION}.tar.xz"
